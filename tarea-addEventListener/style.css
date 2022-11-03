@@ -1,0 +1,47 @@
+:root {
+    --color1: rgb(94, 142, 110);
+    --color2: rgb(188, 219, 158);
+    --color3: rgb(38, 33, 65);
+    --color4: rgb(124, 84, 108);
+    --color5: rgb(104, 147, 159);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title {
+    position: fixed;
+    top: 0;
+    background-color: var(--color3);
+    opacity: .5;
+    max-height: 100px;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.title h1,
+.title p {
+    color: white;
+
+}
+body {
+    background-color: azure;
+    height: 120vh;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja {
+    /* border: solid 1px black; */
+    width: 50%;
+    height: 50%;
+}
