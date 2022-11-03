@@ -7,16 +7,16 @@
     <title>Manipulación del DOM básica</title>
 </head>
 <body>
+    <!-- Clase addEventListener -->
     <h1>Manipulación del DOM básica</h1>
-    <!-- las dos funciones que se muesrtan a continuación es mejor hacerlas desde js para que se mantenga un orden -->
-    <!-- con la opción "onchange" se puede decir cuál es el nombre de la funcion en js que se debe ejecutar -->
-    <!-- <input onchange="console.log('cambió el input')" id="calculo1" type="text" placeholder="escribe algo aquí"> -->
-    <input id="calculo1" type="text" placeholder="escribe algo aquí">
-    <input id="calculo2" type="text" placeholder="escribe algo aquí">
-    <!-- igualmente con "onclick" se pueden ejecutar funciones de js -->
-    <button onclick="btnOnClick()" id="btnCalcular">Calcular</button>
-    <p id="result"></p>
-    
+
+    <form id="form">
+        <input id="calculo1" type="text" placeholder="escribe algo aquí">
+        <input id="calculo2" type="text" placeholder="escribe algo aquí">
+        <button id="btnCalcular">Calcular</button>
+        <p id="result"></p>
+    </form>
+
     <script src="./script.js"></script>
 </body>
 </html>
